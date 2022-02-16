@@ -1,0 +1,28 @@
+img {
+    border-radius: 50%;
+    width: 160px;
+}
+
+.div_profile {
+    width: 300px;
+    padding: 50px 40px 50px 60px;
+}
+
+a{
+    margin-left: 0px;
+}
+
+button {
+    border-color: darkgrey;
+    padding: 10px 20px 10px 20px;
+}
+
+.btn_txt {
+    font-weight: bold;
+    font-size: x-small;
+    font-style: normal;
+}
+
+.websiteUrl {
+    font-size: small;
+}

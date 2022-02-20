@@ -9,15 +9,15 @@ function Navbar() {
       </div>
 
       <div className="links">
-        <a href="https://github.com/yasin-altunisik">ABOUT</a>
+        <a href="https://github.com/yasin-altunisik" className="navbar_a">ABOUT</a>
         <text className="text1"> | </text>
-        <a href="https://www.linkedin.com/in/yasinaltunisik/">RESUME</a>
+        <a href="https://www.linkedin.com/in/yasinaltunisik/" className="navbar_a">RESUME</a>
         <text className="text1"> | </text>
-        <a href="https://www.linkedin.com/in/yasinaltunisik/">PROJECTS</a>
+        <a href="https://www.linkedin.com/in/yasinaltunisik/" className="navbar_a">PROJECTS</a>
         <text className="text1"> | </text>
-        <a href="https://www.linkedin.com/in/yasinaltunisik/">STATS</a>
+        <a href="https://www.linkedin.com/in/yasinaltunisik/" className="navbar_a">STATS</a>
         <text className="text1"> | </text>
-        <a href="https://www.linkedin.com/in/yasinaltunisik/">CONTACT</a>
+        <a href="https://www.linkedin.com/in/yasinaltunisik/" className="navbar_a">CONTACT</a>
       </div>
     </div>
   );

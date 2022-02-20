@@ -1,28 +1,37 @@
 img {
-    border-radius: 50%;
-    width: 160px;
+  border-radius: 50%;
+  width: 160px;
 }
 
 .div_profile {
-    width: 300px;
-    padding: 50px 40px 50px 60px;
+  width: 20%;
+  margin-left: 6%;
+  padding: 50px 40px 50px 60px;
 }
 
-a{
-    margin-left: 0px;
+.profile_a {
+  text-decoration: none;
+  margin: 10px;
+  color: dimgray;
+  font-size: medium;
 }
 
 button {
-    border-color: darkgrey;
-    padding: 10px 20px 10px 20px;
+  border-color: darkgrey;
+  padding: 10px 20px 10px 20px;
 }
 
 .btn_txt {
-    font-weight: bold;
-    font-size: x-small;
-    font-style: normal;
+  font-weight: bold;
+  font-size: x-small;
+  font-style: normal;
+  color: grey;
 }
 
 .websiteUrl {
-    font-size: small;
+  font-size: small;
+}
+
+.profile_p {
+    color: grey;
 }

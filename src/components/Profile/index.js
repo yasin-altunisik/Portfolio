@@ -15,8 +15,8 @@ function Profile() {
         src="https://docs.kariyer.net/candidate/000/018/305/avatar/1830517220191021062700200.jpg?filesec=XdsV1VzBKiPzRwcAz5MUUtyoieM5GYECYBAyBb5i6IACbCPP9AHSdXhiTOspVdmcJf1m%2BEnf4j%2FJpIaLZiySGgdkH6JbfzHQ!e!"
         alt="profil fotosu"
       />
-      <h2>YASİN ALTUNIŞIK</h2>
-      <a href="mailto:altun.yasin.isik@gmail.com">altun.yasin.isik@gmail.com</a>
+      <h1>YASİN ALTUNIŞIK</h1>
+      <a href="mailto:altun.yasin.isik@gmail.com" className="profile_a">altun.yasin.isik@gmail.com</a>
       <div>
         <br />
       </div>
@@ -25,7 +25,7 @@ function Profile() {
         <br />
       </div>
       <h4>ABOUT</h4>
-      <p>
+      <p className="profile_p">
         Hi, I'm Yasin. I am a front-end developer and a javascript addict who
         like React/React Native.{" "}
       </p>
@@ -46,16 +46,16 @@ function Profile() {
         <br />
       </div>
       <h3>
-        <a href="https://github.com/yasin-altunisik">
+        <a href="https://github.com/yasin-altunisik" className="profile_a">
           <RiGithubFill />
         </a>
-        <a href="https://www.linkedin.com/in/yasinaltunisik/">
+        <a href="https://www.linkedin.com/in/yasinaltunisik/" className="profile_a">
           <RiLinkedinFill />
         </a>
-        <a href="https://twitter.com/painKiller_YSN">
+        <a href="https://twitter.com/painKiller_YSN" className="profile_a">
           <RiTwitterFill />
         </a>
-        <a href="mailto:altun.yasin.isik@gmail.com">
+        <a href="mailto:altun.yasin.isik@gmail.com" className="profile_a">
           <RiMailLine />
         </a>
       </h3>
@@ -64,7 +64,7 @@ function Profile() {
         <RiCopyrightLine />
         <text> YASİN ALTUNIŞIK</text>
         <span>
-          <a href="yasinaltunisik.com" className="websiteUrl">
+          <a href="yasinaltunisik.com" className="profile_a websiteUrl">
             YASINALTUNISIK.COM
           </a>
         </span>

@@ -17,7 +17,7 @@ function Home() {
           can chech out my resume, projects, view statics, or contact me.
         </p>
 
-        <p className="grey">Source available <a href="https://github.com/yasin-altunisik/portfolio" id="home_a1" target="_blank" rel="noopener noreferrer">here</a>.</p>
+        <p className="grey">Source available <a href="https://github.com/yasin-altunisik/portfolio" id="home_a1" target="_blank" rel="noopener noreferrer" className="grey">here</a>.</p>
         <br/>
         <hr/>
         <br/>

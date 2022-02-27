@@ -63,7 +63,7 @@ function Profile() {
         <RiCopyrightLine className="grey" />
         <text className="grey"> YASİN ALTUNIŞIK</text>
         <span>
-          <a href="yasinaltunisik.com" className="profile_a websiteUrl">
+          <a href="https://www.yasinaltunisik.com/" className="profile_a websiteUrl">
             YASINALTUNISIK.COM
           </a>
         </span>

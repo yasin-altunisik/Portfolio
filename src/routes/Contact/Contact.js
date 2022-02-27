@@ -3,9 +3,7 @@ import "./Contact.css"
 import {
   RiLinkedinFill,
   RiTwitterFill,
-  RiMailLine,
   RiGithubFill,
-  RiCopyrightLine,
 } from "react-icons/ri";
 
 function Contact() {

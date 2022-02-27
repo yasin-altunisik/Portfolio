@@ -15,11 +15,14 @@
 }
 
 .navbar_name {
+  text-decoration: none;
   font-weight: bold;
   font-size: medium;
   border-right-style: inset;
   border-right-width: 2px;
   padding: 1%;
+  color: black;
+  border-color: lightgray;
 }
 
 .navbar_name_div {

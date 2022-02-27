@@ -5,14 +5,14 @@ img {
 
 .div_profile {
   width: 20%;
-  margin-left: 6%;
-  padding: 50px 40px 50px 60px;
+  margin-left: 3%;
+  padding: 5% 40px 50px 60px;
 }
 
 .profile_a {
   text-decoration: none;
   margin: 10px;
-  color: dimgray;
+  color: grey;
   font-size: medium;
 }
 
@@ -34,4 +34,23 @@ button {
 
 .profile_p {
     color: grey;
+}
+
+.click {
+  background: white;
+  cursor: pointer;
+}
+
+.click:hover {
+  opacity: 0.3;
+}
+
+#mail {
+  text-decoration: none;
+  color: grey;
+  font-size: medium;
+}
+
+.grey {
+  color: grey;
 }

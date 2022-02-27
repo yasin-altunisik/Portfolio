@@ -7,6 +7,7 @@ import {
   RiGithubFill,
   RiCopyrightLine,
 } from "react-icons/ri";
+import { Link } from "react-router-dom";
 
 function Profile() {
   return (
@@ -16,40 +17,39 @@ function Profile() {
         alt="profil fotosu"
       />
       <h1>YASİN ALTUNIŞIK</h1>
-      <a href="mailto:altun.yasin.isik@gmail.com" className="profile_a">altun.yasin.isik@gmail.com</a>
-      <div>
-        <br />
-      </div>
+      <a href="mailto:altun.yasin.isik@gmail.com" id="mail">
+        altun.yasin.isik@gmail.com
+      </a>
+      <br />
+      <br />
       <hr />
-      <div>
-        <br />
-      </div>
+      <br />
       <h4>ABOUT</h4>
       <p className="profile_p">
         Hi, I'm Yasin. I am a front-end developer and a javascript addict who
         like React/React Native.{" "}
       </p>
-      <div>
-        <br />
-      </div>
-      <button>
-        <text className="btn_txt">LEARN MORE</text>
-      </button>
-      <div>
-        <br />
-      </div>
-      <div>
-        <br />
-      </div>
+      {/* <text className="grey">Age:</text>
+      <br />
+      <br /> */}
+      <Link to="/resume">
+        <button className="click">
+          <text className="btn_txt">LEARN MORE</text>
+        </button>
+      </Link>
+      <br />
+      <br />
+      <br />
       <hr />
-      <div>
-        <br />
-      </div>
+      <br />
       <h3>
         <a href="https://github.com/yasin-altunisik" className="profile_a">
           <RiGithubFill />
         </a>
-        <a href="https://www.linkedin.com/in/yasinaltunisik/" className="profile_a">
+        <a
+          href="https://www.linkedin.com/in/yasinaltunisik/"
+          className="profile_a"
+        >
           <RiLinkedinFill />
         </a>
         <a href="https://twitter.com/painKiller_YSN" className="profile_a">
@@ -59,10 +59,9 @@ function Profile() {
           <RiMailLine />
         </a>
       </h3>
-
       <div className="websiteUrl">
-        <RiCopyrightLine />
-        <text> YASİN ALTUNIŞIK</text>
+        <RiCopyrightLine className="grey" />
+        <text className="grey"> YASİN ALTUNIŞIK</text>
         <span>
           <a href="yasinaltunisik.com" className="profile_a websiteUrl">
             YASINALTUNISIK.COM

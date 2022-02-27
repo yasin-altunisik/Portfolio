@@ -1,24 +1,29 @@
 import React from "react";
-import "./index.css"
+import "./index.css";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
     <div className="navbar">
-      <div className="navbar_name_div">
-        <text className="navbar_name">YASİN ALTUNIŞIK</text>
-      </div>
+      <a href="https://www.yasinaltunisik.com/" className="navbar_name">YASİN ALTUNIŞIK</a>
 
-      <div className="links">
-        <a href="https://github.com/yasin-altunisik" className="navbar_a">ABOUT</a>
+      <nav className="links">
+        <Link to="/about" className="navbar_a">
+          ABOUT
+        </Link>
         <text className="text1"> | </text>
-        <a href="https://www.linkedin.com/in/yasinaltunisik/" className="navbar_a">RESUME</a>
+        <Link to="/resume" className="navbar_a">
+          RESUME
+        </Link>
         <text className="text1"> | </text>
-        <a href="https://www.linkedin.com/in/yasinaltunisik/" className="navbar_a">PROJECTS</a>
+        <Link to="/projects" className="navbar_a">
+          PROJECTS
+        </Link>
         <text className="text1"> | </text>
-        <a href="https://www.linkedin.com/in/yasinaltunisik/" className="navbar_a">STATS</a>
-        <text className="text1"> | </text>
-        <a href="https://www.linkedin.com/in/yasinaltunisik/" className="navbar_a">CONTACT</a>
-      </div>
+        <Link to="/contact" className="navbar_a">
+          CONTACT
+        </Link>
+      </nav>
     </div>
   );
 }

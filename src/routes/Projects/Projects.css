@@ -1,0 +1,19 @@
+#project {
+    background-color: white;
+    margin: 70px 50px 50px 50px;
+    padding: 30px 50px 50px 50px;
+    height: fit-content;
+    width: 60%;
+}
+
+.grey {
+    color: grey;
+}
+
+.black {
+    color: black;
+}
+
+#a_projects1 {
+color: grey;
+}

@@ -1,4 +1,4 @@
-import React from "react";
+import { useState, useEffect } from "react";
 import "./index.css";
 import {
   RiLinkedinFill,
@@ -10,6 +10,22 @@ import {
 import { Link } from "react-router-dom";
 
 function Profile() {
+
+  const [age, setAge] = useState();
+
+  const tick = () => {
+    const divisor = 1000 * 60 * 60 * 24 * 365.2421897; // ms in an average year
+    const birthTime = new Date('1996-10-10T09:24:00');
+    setAge(((Date.now() - birthTime) / divisor).toFixed(11));
+  };
+
+  useEffect(() => {
+    const timer = setInterval(() => tick(), 25);
+    return () => {
+      clearInterval(timer);
+    };
+  }, []);
+
   return (
     <div className="div_profile">
       <img
@@ -29,9 +45,9 @@ function Profile() {
         Hi, I'm Yasin. I am a front-end developer and a javascript addict who
         like React/React Native.{" "}
       </p>
-      {/* <text className="grey">Age:</text>
+      <text className="grey">Age:{age}</text>
       <br />
-      <br /> */}
+      <br />
       <Link to="/resume">
         <button className="click">
           <text className="btn_txt">LEARN MORE</text>
@@ -63,7 +79,10 @@ function Profile() {
         <RiCopyrightLine className="grey" />
         <text className="grey"> YASİN ALTUNIŞIK</text>
         <span>
-          <a href="https://www.yasinaltunisik.com/" className="profile_a websiteUrl">
+          <a
+            href="https://www.yasinaltunisik.com/"
+            className="profile_a websiteUrl"
+          >
             YASINALTUNISIK.COM
           </a>
         </span>

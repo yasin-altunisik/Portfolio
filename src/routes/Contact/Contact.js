@@ -9,7 +9,7 @@ import {
 function Contact() {
   return (
     <div className="grey" id="contact">
-      <h1 className="black">CONTACT</h1>
+      <h2 className="black">CONTACT</h2>
       <br />
       <hr />
       <br />

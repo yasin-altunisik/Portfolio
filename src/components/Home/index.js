@@ -19,9 +19,6 @@ function Home() {
 
         <p className="grey">Source available <a href="https://github.com/yasin-altunisik/portfolio" id="home_a1" target="_blank" rel="noopener noreferrer" className="grey">here</a>.</p>
         <br/>
-        <hr/>
-        <br/>
-        <p className="grey">(Some sections are under construction!)</p>
 
     </div>
   );

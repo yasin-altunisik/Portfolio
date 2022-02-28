@@ -14,7 +14,7 @@ function Home() {
         <br/>
         <p className="grey">
           Welcome to my website. Please feel free to read more about me, or you
-          can chech out my resume, projects, view statics, or contact me.
+          can chech out my resume, projects or contact me.
         </p>
 
         <p className="grey">Source available <a href="https://github.com/yasin-altunisik/portfolio" id="home_a1" target="_blank" rel="noopener noreferrer" className="grey">here</a>.</p>

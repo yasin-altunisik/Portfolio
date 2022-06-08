@@ -76,8 +76,6 @@ function Profile() {
         </a>
       </h3>
       <div className="websiteUrl">
-        <RiCopyrightLine className="grey" />
-        <text className="grey"> YASİN ALTUNIŞIK</text>
         <span>
           <a
             href="https://www.yasinaltunisik.com/"

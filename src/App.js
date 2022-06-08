@@ -15,9 +15,13 @@ function App() {
     <div id="div_app">
       <BrowserRouter>
         <Navbar />
-        <div className="flex">
-          <Profile />
-          <Routes>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-3">
+              <Profile />
+            </div>
+            <div class="col-sm-9">
+              <Routes>
             <Route path="/" element={<Home />}  />
             <Route path="about" element={<About />} />
             <Route path="contact" element={<Contact />} />
@@ -25,6 +29,8 @@ function App() {
             <Route path="resume" element={<Resume />} />
           </Routes>
           <Outlet />
+            </div>
+          </div>
         </div>
       </BrowserRouter>
     </div>

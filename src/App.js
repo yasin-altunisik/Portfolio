@@ -17,10 +17,10 @@ function App() {
         <Navbar />
         <div class="container">
           <div class="row">
-            <div class="col-sm-3">
+            <div class="col-sm-8 col-lg-3 mx-auto">
               <Profile />
             </div>
-            <div class="col-sm-9">
+            <div class="col-sm-12 col-lg-9">
               <Routes>
             <Route path="/" element={<Home />}  />
             <Route path="about" element={<About />} />

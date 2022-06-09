@@ -17,7 +17,7 @@ function App() {
         <Navbar />
         <div class="container">
           <div class="row">
-            <div class="col-sm-8 col-lg-3 mx-auto">
+            <div class="col-sm-8 col-lg-3 mx-auto ">
               <Profile />
             </div>
             <div class="col-sm-12 col-lg-9">

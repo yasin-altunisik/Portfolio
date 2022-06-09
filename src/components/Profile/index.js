@@ -5,7 +5,6 @@ import {
   RiTwitterFill,
   RiMailLine,
   RiGithubFill,
-  RiCopyrightLine,
 } from "react-icons/ri";
 import { Link } from "react-router-dom";
 

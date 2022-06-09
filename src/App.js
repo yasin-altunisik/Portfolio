@@ -15,7 +15,7 @@ function App() {
     <div id="div_app">
       <BrowserRouter>
         <Navbar />
-        <div class="container">
+        <div class="container ">
           <div class="row">
             <div class="col-sm-8 col-lg-3 mx-auto ">
               <Profile />

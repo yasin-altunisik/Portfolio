@@ -8,7 +8,7 @@ function Projects() {
       <br/>
       <hr/>
       <br/>
-      <p>To see the magic visit my <a href='https://github.com/yasin-altunisik' id='a_projects1'>github profile</a>.</p>
+      <p>Visit my <a href='https://github.com/yasin-altunisik' id='a_projects1'>github profile</a>.</p>
     </div>
   )
 }

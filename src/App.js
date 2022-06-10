@@ -17,11 +17,11 @@ function App() {
         <Navbar />
         <div class="container ">
           <div class="row">
-            <div class="col-sm-8 col-lg-3 mx-auto ">
+            <div class="col-xs-12 col-sm-12 col-md-10 col-lg-4 mx-auto ">
               <Profile />
             </div>
-            <div class="col-sm-12 col-lg-9">
-              <Routes>
+            <div class="col-xs-12 col-lg-8">
+          <Routes>
             <Route path="/" element={<Home />}  />
             <Route path="about" element={<About />} />
             <Route path="contact" element={<Contact />} />

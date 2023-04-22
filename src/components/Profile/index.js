@@ -1,11 +1,6 @@
 import { useState, useEffect } from "react";
 import "./index.css";
-import {
-  RiLinkedinFill,
-  RiTwitterFill,
-  RiMailLine,
-  RiGithubFill,
-} from "react-icons/ri";
+import { RiLinkedinFill, RiMailLine, RiGithubFill } from "react-icons/ri";
 import { Link } from "react-router-dom";
 
 function Profile() {
